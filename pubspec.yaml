@@ -1,0 +1,30 @@
+name: youtube_clone
+description: "Youtube Clone"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.4.1
+  mobx: ^2.3.0+1
+  flutter_mobx: ^2.2.0+2
+  mobx_codegen: ^2.6.0+1
+  flutter_modular: ^6.3.2
+  youtube_player_flutter: ^9.0.0
+  flutter_dotenv: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.8
+
+assets:
+  - .env
+
+flutter:
+  uses-material-design: true
